@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <h2> This is HTML forms Tuitorial</h2>
+    <form action="backend.php">
+        <br>
+        <label for="name"> Name</label>
+        <div>
+        <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <label for="Role"> Role</label>
+        <br>
+        <div>
+        <input type="number" name="myRole" id= Role>
+        <</div>
+        <br>
+        <label for="email">Email</label>
+        <br>
+        <div>
+        <input type="email" name="myEmail" id=email>
+        </div>
+        <br>
+        <br>
+        <div>
+            Date: <input type="Date" name="myEmail">
+        </div>
+        <br>
+        <div>
+            Bonus: <input type="number" name="myBonus">
+        </div>
+        <br>
+        <div>
+            Do you eligible<input type="checkbox" name="myeligibility" checked>
+        </div>
+        <br>
+        <div>
+            Gender: male<input type="radio" name="mygender"> female<input type="radio" name="mygender">Other:<input
+                type="radio" name="mygender">
+        </div>
+        <br>
+        <div>
+            Write about yourself:<br> <textarea name="text" cols="30" rows="5"></textarea>
+        </div>
+        <br>
+        <div>
+      <label for="Car">Car</label>
+      <Select name="mycar"id="Car">
+      <option value="ind">Indica</option>
+      <option value="swf" selected>Swift</option>
+      <option value="SCr" selected>Scorpio</option>
+      </Select>
+      
+        </div>
+       <br>
+        <div>
+            <input type="submit" value="Submit Now">
+        </div>
+        <div>
+        <br>
+            <input type="reset" value="Reset Now">
+        </div>
+    </form>
+</body>
+</html>
